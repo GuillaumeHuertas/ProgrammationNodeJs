@@ -1,7 +1,6 @@
 var connect = require ("connect"); 
 var fs = require("fs");
 var app = connect(); 
-
  
 app.use((req, res, next) => {
     var filename = "logs.txt"; 
